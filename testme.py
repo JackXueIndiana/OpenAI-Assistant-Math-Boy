@@ -5,8 +5,8 @@ import requests
 from openai import AzureOpenAI
   
 client = AzureOpenAI(
-    azure_endpoint = "https://xjxopenai.openai.azure.com/",
-    api_key= "104a5aa356014d599d960a45c08d6847",
+    azure_endpoint = "https://<your value>.openai.azure.com/",
+    api_key= "your key",
     api_version="2024-05-01-preview"
 )
 
